@@ -12,13 +12,14 @@
 
 
     <ImageView
-        android:layout_width="100dp"
+        android:layout_width="110dp"
         android:layout_marginTop="-50dp"
-        android:layout_height="70dp"
+        android:layout_height="80dp"
         android:layout_marginBottom="10dp"
         android:src="@drawable/login_ico" />
 
     <EditText
+        android:id="@+id/Lemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -32,6 +33,7 @@
         android:textColorHighlight="@color/white"/>
 
     <EditText
+        android:id="@+id/Lpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -51,6 +53,7 @@
         android:orientation="horizontal">
 
         <CheckBox
+            android:id="@+id/checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Remember Me"
@@ -64,6 +67,7 @@
             android:onClick="onCheckboxClicked"/>
 
         <TextView
+            android:id="@+id/forgot_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Forget Password"
@@ -81,6 +85,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Log In"
@@ -89,12 +94,12 @@
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/button_shaper"/>
 
     <Button
-        android:id="@+id/btn_signup1"
-        android:onClick="Signup1"
+        android:id="@+id/btn_signup"
+        android:onClick="Signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Don't have account? Sign Up"
@@ -102,7 +107,7 @@
         android:padding="12dp"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="-20dp"
         android:layout_marginTop="0dp"
         android:background="@drawable/button_shaper"
         android:textColor="@color/white"

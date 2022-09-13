@@ -17,16 +17,16 @@
             android:name=".Forgot_Password"
             android:exported="false" />
         <activity
-            android:name=".Activity_Signup"
+            android:name=".Signup"
             android:exported="false" />
         <activity
-            android:name=".Activity_Login"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreen"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

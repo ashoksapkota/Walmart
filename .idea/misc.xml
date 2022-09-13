@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/harys/Downloads/Walmart/app/src/main/res/drawable-v24/button_shaper.xml" value="0.1475" />
         <entry key="..\:/Users/harys/Downloads/Walmart/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1475" />
+        <entry key="..\:/Users/harys/Downloads/Walmart/app/src/main/res/drawable-v24/rounded.xml" value="0.1475" />
+        <entry key="..\:/Users/harys/Downloads/Walmart/app/src/main/res/drawable-v24/shaper.xml" value="0.1475" />
         <entry key="..\:/Users/harys/Downloads/Walmart/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1475" />
         <entry key="..\:/Users/harys/Downloads/Walmart/app/src/main/res/layout/activity_forgot_password.xml" value="0.2171875" />
         <entry key="..\:/Users/harys/Downloads/Walmart/app/src/main/res/layout/activity_login.xml" value="0.2171875" />

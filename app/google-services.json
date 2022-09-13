@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418192949786",
+    "project_id": "walmart-2c95a",
+    "storage_bucket": "walmart-2c95a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418192949786:android:02171c3ccbe5ed2de487a3",
+        "android_client_info": {
+          "package_name": "com.example.walmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418192949786-q1mpjiq0sm2rqqg03c6pkfujh3a3c3pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn_NXE-hgaDSPIx5PFVu1m6SK7qkIFEqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418192949786-q1mpjiq0sm2rqqg03c6pkfujh3a3c3pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
