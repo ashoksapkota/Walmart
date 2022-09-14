@@ -81,6 +81,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/background"
             >
             <LinearLayout
                 android:id="@+id/addItem"
@@ -159,7 +160,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/remove_user"
+                    android:src="@drawable/delete_items"
                     android:layout_margin="4dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
@@ -189,7 +190,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/add_customer"
+                    android:src="@drawable/update_items"
                     android:layout_margin="4dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
@@ -197,7 +198,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Add Customer"
+                    android:text="Update Items"
                     android:textStyle="bold"
                     android:textSize="15sp"
                     android:textColor="@color/black"/>
@@ -219,7 +220,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/remove_user"
+                    android:src="@drawable/edit_users"
                     android:layout_margin="4dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
@@ -227,7 +228,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Delete Items"
+                    android:text="Edit User"
                     android:textStyle="bold"
                     android:textSize="15sp"
                     android:textColor="@color/black"/>
@@ -249,7 +250,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/remove_user"
+                    android:src="@drawable/delete_users"
                     android:layout_margin="4dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
@@ -257,7 +258,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Add Customer"
+                    android:text="Delete User"
                     android:textStyle="bold"
                     android:textSize="15sp"
                     android:textColor="@color/black"/>
