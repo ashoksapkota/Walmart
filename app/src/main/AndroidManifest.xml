@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.walmart">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +15,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Walmart"
         tools:targetApi="31">
+        <activity
+            android:name=".ViewCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".ViewItems"
+            android:exported="false" />
+        <activity
+            android:name=".AddCustomerPage"
+            android:exported="false" />
+        <activity
+            android:name=".AddItemsPopUp"
+            android:exported="false" />
         <activity
             android:name=".Home"
             android:exported="false" />
